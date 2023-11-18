@@ -1,0 +1,16 @@
+{
+  "name": "ui-kit",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel --no-cache",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.3",
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
